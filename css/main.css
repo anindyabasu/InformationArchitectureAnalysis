@@ -22,10 +22,6 @@ body {
   }
 
 ul {
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	padding: -100px;
 	
 }
 p {
@@ -193,4 +189,12 @@ blockquote cite{
 }
 .green {
 		color: #50E650;
+}
+
+.center {
+	text-align: center;
+}
+
+.heading {
+	font-size: 4em;
 }
