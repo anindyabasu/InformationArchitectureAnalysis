@@ -248,6 +248,10 @@ blockquote cite{
 .mainbodybody {
 	display: inline-block;
 }
+.mainbodyfaculty {
+	display: inline-block;
+	width: 1001px;
+}
 .studentbody {
 	margin-left: 80px;
 	margin-top: 30px;
