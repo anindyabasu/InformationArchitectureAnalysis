@@ -1,0 +1,196 @@
+/*
+Anindya Basu, Olivia Castenada, Luke Eberle
+Base code from Kristine Le and Rodya Perez
+Found on COGS187A Example Page for this
+Assignment. 
+*/
+
+@charset "utf-8";
+/*
+ -----------------------------
+ //   	GENERAL	  	  //
+------------------------------
+*/
+body {
+	font: 14px Helvetica, Arial, sans-serif;
+	color: black;
+}
+
+*
+{
+  margin: 0 auto ;
+  }
+
+ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	padding: -100px;
+	
+}
+p {
+	margin-bottom: 20px;
+	padding: 10px;
+	line-height: 200%;
+}
+h2{
+	font-size:48px;
+	text-align: center;
+	font-family: 'Lato';
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #282828;
+	padding-bottom: 10px;
+}
+h3{
+	font-size:18px;
+	font-family: 'Lato';
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #012c51;
+}
+h4{
+	font-size:14px;
+	font-family: 'Lato';
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #000;
+}
+blockquote{
+	color:#282828;
+	font-size:18px;
+	font-family: 'Lato';
+	font-weight:300;
+	font-style: italic;
+	width: 600px;
+	margin: 0 auto;
+	padding:20px;
+	background-color: #f7f7f7;
+}
+blockquote cite{
+	display: block;
+	margin-left: 425px;
+}
+
+/*
+----------------------------
+ // 	  LOGO	     //
+----------------------------
+*/
+#logo {
+	left: 7.2%;
+	margin: 0 auto;
+	position: fixed;
+	top: 55px;
+	height: 70px;
+	width:230px;
+}
+
+/*
+----------------------------
+ //   TOP NAVIGATION     //
+----------------------------
+*/
+#nav {
+	margin-top: 5%;
+	margin-left: 10%;
+	list-style: none;
+	position: fixed;
+	background:#F5F5F5;
+}
+/#nav li {
+	border: 10px solid blue;
+	margin-bottom: 0px;
+	list-style: none;
+	text-align: center;
+}
+#nav a {
+	color: black;
+	display: block;
+/* THIS IS THE EM PART THAT WE NEED TO FIX */
+/* THIS IS THE SIZE OF THE ACTUAL TEXT IN THE MENU */
+	font-size: 1em;
+/* ------------------ */
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+/* THIS IS THE SPATIAL WIDTH OF EACH BUTTON/BOX THING*/
+/* THAT THE TEXT IS SITTING IN*/
+	width: 15em;
+/* ------------------ */
+	border-left: 5px solid #282828;
+	margin-left: -5px;
+	font-family: 'Lato';
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+#nav a:hover {
+	background: #d7d7d7;
+	border-left: 5px solid #282828;
+}
+#nav .current a {
+	background: #012c51;
+	color: white;
+}
+/*
+ -----------------------------
+ //   	CONTENT  	  //
+------------------------------
+*/
+#container {
+	margin-left: 0%;
+	width: 100%;
+	padding: 30px;
+}
+.section {
+	border-bottom: 5px solid #717171;
+	padding: 5%;
+	padding-top: 90px;
+}
+.section p:last-child {
+	margin-bottom: 0;
+}
+#page{
+	width: 900px;
+	height:100%;
+	text-align: left;
+	border: 0px;
+	padding 0;
+	margin: 0 auto;
+}
+.bannerimage {
+		width:100%;
+		margin: auto;
+}
+
+/*
+ -----------------------------
+ //   	SCREENSHOT MASK   //
+------------------------------
+*/
+.screenshot{
+	margin: 0 auto;
+	float: left;
+	padding-right: 20px;
+}
+.screenshot img {
+  -webkit-mask-image: url('../img/circlemask.png');
+}
+
+.failure{
+		border-left: 10px solid #FF3030;
+		padding-left: 10px;
+}
+.success{
+		border-left: 10px solid #50E650;
+		padding-left: 10px;
+}
+.red {
+		color: #FF3030;
+}
+.green {
+		color: #50E650;
+}
