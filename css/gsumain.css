@@ -223,9 +223,7 @@ blockquote cite{
 }
 .mainbody {
 	width: 1001px;
-	background: silver;
-	height: 700px;
-	border: 9px solid black;
+	height: 700px;	
 }
 /*
 ----------------------------
@@ -251,7 +249,8 @@ blockquote cite{
 	display: inline-block;
 }
 .studentbody {
-	margin-left: 150px;
+	margin-left: 80px;
+	margin-top: 30px;
 }
 .btn-group {
 	padding-left: 5px;
