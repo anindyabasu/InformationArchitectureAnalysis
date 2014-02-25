@@ -103,6 +103,7 @@ blockquote cite{
 	background-color: gray;
 	width: 1001px;
 	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
 }
 .span2 {
 	margin-top: 25px;
@@ -220,6 +221,12 @@ blockquote cite{
 	font-size: 25px;
 	background-color: white;
 }
+.mainbody {
+	width: 1001px;
+	background: silver;
+	height: 700px;
+	border: 9px solid black;
+}
 /*
 ----------------------------
  // 	  NAVIGATION	     //
@@ -231,12 +238,29 @@ blockquote cite{
 .nav {
 	width: 981px;
 	margin-left: 0px;
-	margin-top: 5px;
-	position: relative;
+	marg
+}
+.sidenav {
+	float: left;
+	width: 150px;
+	height: 486px;
+	padding: 10px;
+	background-color: white;
+}
+.mainbodybody {
+	display: inline-block;
+}
+.studentbody {
+	margin-left: 150px;
 }
 .btn-group {
 	padding-left: 5px;
 	float: right;
+}
+.btn-group1 {
+	margin: 5px;
+	padding: 5px;
+	float: left;
 }
 .dropdown-submenu{position:relative;}
 .dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
