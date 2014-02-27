@@ -23,10 +23,9 @@ body {
 
 ul {
 	margin: 0;
-	padding: 0;
-	text-align: center;
+	/*padding: 0;
+	text-align: center;*/
 	padding: -100px;
-	
 }
 p {
 	margin-bottom: 20px;
